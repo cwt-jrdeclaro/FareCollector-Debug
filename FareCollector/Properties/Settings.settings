@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FareCollector.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DocBankSupportEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DocumentBankInternalSupport@CarlsonWagonlit.com</Value>
+    </Setting>
+    <Setting Name="ListenerCheckInterval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="TimeoutSleepDuration" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="OutboundQueueName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\private$\faremanagerinbound</Value>
+    </Setting>
+    <Setting Name="InboundQueueName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\private$\farecollectorinbound</Value>
+    </Setting>
+    <Setting Name="MaxTimeoutErrors" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="MaxThreads" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="HP_OutboundQueueName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\private$\hp_comfaremanagerinbound</Value>
+    </Setting>
+    <Setting Name="HP_InboundQueueName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\private$\hp_comfarecollectorinbound</Value>
+    </Setting>
+    <Setting Name="MaxSabreSessions" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
